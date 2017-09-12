@@ -39,7 +39,7 @@ const ActivitiesPageWithLife = compose(
       const menu = document.querySelector('.navbar-menu');
       menu.classList.remove('is-active');
       toggleButton.classList.remove('is-active');
-      axios.get('https://mighty-tor-86880.herokuapp.com/sheet/13AWPX68OBmPmf0KZhkZxtUdtFdmvuP312XG8utNnoZE')
+      axios.get('https://stark-springs-15807.herokuapp.com/sheet/13AWPX68OBmPmf0KZhkZxtUdtFdmvuP312XG8utNnoZE')
            .then((res)=>{
               this.props.setActivities(res.data);
            })

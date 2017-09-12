@@ -36,7 +36,7 @@ const HeroSectionWithLife = compose(
       menu.classList.remove('is-active');
       toggleButton.classList.remove('is-active');
       // get next activities
-      axios.get('https://mighty-tor-86880.herokuapp.com/nextevent/13AWPX68OBmPmf0KZhkZxtUdtFdmvuP312XG8utNnoZE')
+      axios.get('https://stark-springs-15807.herokuapp.com/nextevent/13AWPX68OBmPmf0KZhkZxtUdtFdmvuP312XG8utNnoZE')
              .then((res)=>{
                 this.props.setNextActivities(res.data);
              })

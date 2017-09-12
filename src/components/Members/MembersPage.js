@@ -26,7 +26,7 @@ const MembersPageWithLife = compose(
       const menu = document.querySelector('.navbar-menu');
       menu.classList.remove('is-active');
       toggleButton.classList.remove('is-active');
-      axios.get('https://mighty-tor-86880.herokuapp.com/sheet/1p63gRkgZlGfwEQEnXChiJKCz6Fzpodcrv9Yv3Qd5Ppg')
+      axios.get('https://stark-springs-15807.herokuapp.com/sheet/1p63gRkgZlGfwEQEnXChiJKCz6Fzpodcrv9Yv3Qd5Ppg')
            .then((res)=>{
               this.props.setMembers(res.data);
            })
